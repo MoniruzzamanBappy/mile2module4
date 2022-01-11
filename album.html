@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Album</title>
+    <style>
+        .photo-album {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .photo-frame {
+            width: 300px;
+            border: 3px solid yellowgreen;
+            position: relative;
+            margin: 10px;
+            overflow: hidden;
+        }
+
+        .photo img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .photo-details {
+            display: none;
+            position: absolute;
+            width: 300px;
+            top: 0;
+        }
+
+        .photo-frame:hover .photo-details {
+            display: block;
+            background-color: rgba(128, 128, 128, 0.555);
+            color: white;
+        }
+
+        .photo-details {
+            padding: 5px;
+            width: 100%;
+            height: 100%;
+            text-align: justify;
+        }
+
+        .photo-frame:hover .photo {
+            transform: scale(1.4);
+            transition: transform 1.5s ease-in-out;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>My Awesome Photo Album</h1>
+    <section>
+        <h3>Tiger Photo</h3>
+        <div class="photo-album">
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Mama</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed ad recusandae odit voluptatem nemo
+                        explicabo maiores nobis sequi? At quas iure voluptatum! Iure cum ipsum fugiat similique esse a
+                        exercitationem.</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Mama</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed ad recusandae odit voluptatem nemo
+                        explicabo maiores nobis sequi? At quas iure voluptatum! Iure cum ipsum fugiat similique esse a
+                        exercitationem.</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Mama</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed ad recusandae odit voluptatem nemo
+                        explicabo maiores nobis sequi? At quas iure voluptatum! Iure cum ipsum fugiat similique esse a
+                        exercitationem.</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Mama</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed ad recusandae odit voluptatem nemo
+                        explicabo maiores nobis sequi? At quas iure voluptatum! Iure cum ipsum fugiat similique esse a
+                        exercitationem.</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Mama</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed ad recusandae odit voluptatem nemo
+                        explicabo maiores nobis sequi? At quas iure voluptatum! Iure cum ipsum fugiat similique esse a
+                        exercitationem.</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Mama</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed ad recusandae odit voluptatem nemo
+                        explicabo maiores nobis sequi? At quas iure voluptatum! Iure cum ipsum fugiat similique esse a
+                        exercitationem.</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Mama</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed ad recusandae odit voluptatem nemo
+                        explicabo maiores nobis sequi? At quas iure voluptatum! Iure cum ipsum fugiat similique esse a
+                        exercitationem.</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Mama</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed ad recusandae odit voluptatem nemo
+                        explicabo maiores nobis sequi? At quas iure voluptatum! Iure cum ipsum fugiat similique esse a
+                        exercitationem.</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Mama</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed ad recusandae odit voluptatem nemo
+                        explicabo maiores nobis sequi? At quas iure voluptatum! Iure cum ipsum fugiat similique esse a
+                        exercitationem.</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Mama</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed ad recusandae odit voluptatem nemo
+                        explicabo maiores nobis sequi? At quas iure voluptatum! Iure cum ipsum fugiat similique esse a
+                        exercitationem.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>

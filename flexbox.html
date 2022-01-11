@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex BOx Practice</title>
+    <style>
+        .container {
+            border: 3px solid red;
+            display: flex;
+            justify-content: center;
+            height: 400px;
+            align-items: center;
+        }
+
+        .box {
+            height: 200px;
+            width: 200px;
+            border: 2px solid yellowgreen;
+            font-size: 3em;
+        }
+
+        .container-1 {
+            border: 3px solid red;
+            display: flex;
+            justify-content: center;
+            height: 400px;
+            align-items: center;
+        }
+
+        .box-1 {
+            width: 200px;
+            border: 2px solid yellowgreen;
+            font-size: 3em;
+        }
+
+        #box-1 {
+            flex-grow: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>FlexBox Practice Here</h1>
+    <div class="container">
+        <div class="box">box-1</div>
+        <div class="box">box-2</div>
+        <div class="box">box-3</div>
+    </div>
+
+    <div class="container-1">
+        <div class="box-1">box-1</div>
+        <div id="box-1" class="box-1">box-2</div>
+    </div>
+</body>
+
+</html>
